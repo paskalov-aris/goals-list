@@ -12,7 +12,7 @@ const GoalsList = (props) => {
 
     return (
         <div>
-            <AddGoal addGoal={addGoal} goalText={props.goalText} setGoalText={props.setGoalText} goalsCount={count}/>
+            <AddGoal addGoal={addGoal} goalsCount={count}/>
 
             <ul className={classes.goalsList}>
                 {props.goalsList.map(goal => {

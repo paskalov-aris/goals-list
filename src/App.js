@@ -9,13 +9,9 @@ const App = () => {
         {id: 3, text: 'Вступить в команду и работать над реальными проектами'}
     ]);
 
-    const [goalText, setGoalText] = useState(
-        '',
-    );
-
     return (
         <div className="app">
-            <GoalsList goalsList={goalsList} setGoalsList={setGoalsList} goalText={goalText} setGoalText={setGoalText}/>
+            <GoalsList goalsList={goalsList} setGoalsList={setGoalsList} />
         </div>
     );
 }
