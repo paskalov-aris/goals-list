@@ -1,0 +1,8 @@
+.goalsListItem {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 15px 0;
+    margin: 0 auto 15px auto;
+}
